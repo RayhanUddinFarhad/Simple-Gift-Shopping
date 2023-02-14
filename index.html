@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+
+    <div class="container mx-auto">
+
+
+
+        <div class="grid grid-cols-3 gap-5 p-5 space-x-5">
+
+
+
+            <div class="text-center p-5 space-y-3  shadow-lg m-3">
+
+                <img class="w-9/12 mx-auto" src="images/rose.png" alt="">
+                <h5 class="text-4xl font-bold">Rose</h5>
+                <p class="text-2xl font-bold">Price : <span id="rose-price">85</span></p>
+                <input id="rose-quantity" class=" p-3 border-2 border-indigo-400" type="number" placeholder="Quantity">
+                <button  id="btn-cart-rose" class="bg-indigo-500 text-white p-4 rounded-lg block mx-auto">Add To Cart</button>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div class="text-center p-5 space-y-3 shadow-lg m-3">
+
+                <img class="w-9/12 mx-auto" src="images/Choclate.png" alt="">
+                <h5 class="text-4xl font-bold">Choclate</h5>
+                <p class="text-2xl font-bold">Price : <span id="choc-price">299</span></p>
+                <input id="choc-quantity" class=" p-3 border-2 border-indigo-400" type="number" placeholder="Quantity">
+                <button  id="btn-cart-choc" class="bg-indigo-500 text-white p-4 rounded-lg block mx-auto">Add To Cart</button>
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="font-bold space-y-5 border-4 border-gray-300 p-5 text-black">
+
+
+
+
+                <div id="container-cart">
+
+
+
+                    <div class="flex items-center p-3  shadow-lg space-y-5">
+
+                        <img class="w-32" src="images/rose.png" alt="">
+    
+    
+    
+                           <div class="p-5 space-y-4">
+    
+                            <p class="text-3xl">Rose</p>
+    
+                            <p class="text-red-300 text-5xl" >$ <span id="rose-total">00</span></p>
+                            <p class="text-xl text-indigo-500">Quantity <span>0</span> </p>
+    
+                            
+    
+                           </div>
+    
+                           
+    
+    
+                        
+    
+    
+    
+                    </div>
+                </div>
+
+
+
+
+
+
+                    <div class="flex items-center p-3 shadow-lg space-y-5">
+
+                        <img class="w-32" src="images/Choclate.png" alt="">
+    
+    
+    
+                           <div class="p-5 space-y-4">
+    
+                            <p class="text-3xl">Chocolate</p>
+    
+                            <p  class="text-red-300 text-5xl" >$ <span id="choc-total">00</span></p>
+                            <p class="text-xl text-indigo-500">Quantity <span>0</span> </p>
+    
+                            
+    
+                           </div>
+    
+                           
+    
+    
+                        
+    
+    
+    
+                    </div>
+
+
+
+
+                <div class="space-y-5">
+
+                    <h5 class="text-5xl">Total : <span class="text-indigo-500" id="total">00</span></h5>
+
+
+                    <div id="coupon-area" >
+
+                        <input id="Coupon"  class=" p-1 border-2 border-indigo-400" type="text" placeholder="Apply Coupon">
+                        <p id="code">Coupon : DOM30</p>
+
+                    </div>
+                <button id="apply" class="bg-indigo-500 text-white p-2 rounded-lg block ">Apply</button>
+
+
+
+
+
+                </div>
+
+                <!-- <h5>Rose : <span  id="rose-total">00</span> tk</h5>
+                <h5>Chocolate : <span  id="choc-total">00</span> tk</h5>
+                
+    
+                <h5>Total : <span id="total">00</span></h5>
+                <input id="Coupon"  class=" p-1 border-2 border-indigo-400" type="text" placeholder="Apply Coupon">
+                <button id="apply" class="bg-indigo-500 text-white p-2 rounded-lg block ">Apply</button>
+     -->
+    
+    
+    
+    
+    
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="js/index.js"></script>
+
+
+    
+</body>
+</html>
